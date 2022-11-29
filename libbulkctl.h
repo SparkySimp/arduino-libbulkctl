@@ -1,3 +1,9 @@
+/*
+ * libbulkctl.h - Bulk pin control library for Arduino.
+ * 
+ * Copyright (C) 2022 Kıvılcım Cemal Öztürk
+ * Created November 29, 2022
+ */
 #ifndef LIBBULKCTL_H
 #define LIBBULKCTL_H
 #include "Arduino.h"
