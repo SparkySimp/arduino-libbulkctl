@@ -27,7 +27,7 @@ void bulkWrite(size_t nPins, PIN_T *pins, VOLTAGE_T *values) { // assigns values
 
 void bulkPinMode(size_t nPins, PIN_T *pins, MODE_T *modes) { // sets pins to modes.
 	for (size_t iota = 0; iota < nPins; iota++) {
-		pinMode(*(pins + i), *(modes + i));
+		pinMode(*(pins + iota), *(modes + iota));
 	}
 }
 #endif
